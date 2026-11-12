@@ -1,0 +1,195 @@
+{
+  "schema": "orchard-r1-developer-source-manifest/1",
+  "origin_UI300_candidate_manifest_sha256": "5775cbb384e8272fd8c745de34da44b77e2c0b13a5e8cc4862383fa5003b2256",
+  "origin_UI300_candidate_source_set_sha256": "76dd10c48e2b2d68b75f15bbb25c1c37b23696e2dae9844604f16130ad6e6e49",
+  "selected_Swift_source_count": 25,
+  "files": [
+    {
+      "path": "orchard_b8_report_ui_native/src/ApplicationJobsB.swift",
+      "bytes": 36675,
+      "sha256": "6aefa2be199046b268a394d344cd6af71427e96d471ce52c88f71d73a4c251b6",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/ApplicationLifecycleB.swift",
+      "bytes": 2808,
+      "sha256": "3a4d0154c76786bb02ded30d1d566bd023ed0df68b5b40e36647c7ff0f9f387a",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/BootstrapB7b.swift",
+      "bytes": 13683,
+      "sha256": "cf42440fb273f04b171b5b4e47a34a4cfed7bd29c4abf1ce867403deba4b103d",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/DockZipDelegateB.swift",
+      "bytes": 525,
+      "sha256": "931028771bce3c20730b909db2e57cf7a0e0b79d770a8a328762d2c745d8bf72",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/GardenBindingB.swift",
+      "bytes": 6397,
+      "sha256": "9e7528b11e0a296db9ca59a6cb7136b4753ea4be7787e7ab50147e0becbeee49",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/JobStoreB.swift",
+      "bytes": 19960,
+      "sha256": "c5f3e1bcf890c7f77ba37a7f0f4739372618c853da789417de5aaed8d0cad076",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/ProtectionMetadataB.swift",
+      "bytes": 29153,
+      "sha256": "e556f4f0b7f6341ec1ca16b26f34f2ccb86307938b2733880735824fc5f90858",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/R1ProductAppEntry.swift",
+      "bytes": 12405,
+      "sha256": "4cd523b2fd8a270140ca79421384a42c2a70e14c03e49b2656925cdf923201c1",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/R1ProductFlow.swift",
+      "bytes": 20038,
+      "sha256": "dd9615877afb1bb3a15110441a3525b5f38df76a617e785147a29f1e458e7a92",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/R1ProductScreen.swift",
+      "bytes": 12773,
+      "sha256": "07cb5fcbbf32741c164668e206a714ac98dac85c25d7411695eee316cd6fe4e1",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/R1WorkerProcessPort.swift",
+      "bytes": 22190,
+      "sha256": "20a3415d2ea66a8e3fc46b24cfaa5d573c7050516b8ef0750c1f29ddb66cb1de",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/ResourceFault54.swift",
+      "bytes": 70,
+      "sha256": "cfcb332ed6c52ee9be5ba2928d575b1a5f20bbe00147577be20883bf4725be05",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/SameVolumeExtractionB.swift",
+      "bytes": 14024,
+      "sha256": "016f1f00415b55af991b038b56823e55906b87b6341485fde396cd42aeafa2fc",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/SelectedResources54.swift",
+      "bytes": 5603,
+      "sha256": "7f2c81a52a5daadf6abb6cbbe9e8e33bbf320b6fb726ef7c1ba4cf1ecc2ff400",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_b8_report_ui_native/src/ZipIntakeB.swift",
+      "bytes": 21346,
+      "sha256": "fa1a17638d0280b05f1073811aa2ac959be82f8d7f4ac70fbe84dee8b40ca585",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_build/OrchardProductMain.swift",
+      "bytes": 541,
+      "sha256": "b8e26c8dee72b0be35e1c2af3720f9014881aced02db79e9185f6a85a6b99d25",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_build/R1FreshProductComposition.swift",
+      "bytes": 16850,
+      "sha256": "4574f6aecb8c5fb625fa42a44590991aa0f4f89ff371b5e265f71464edb80d23",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_build/R1HumanOperationSession.swift",
+      "bytes": 48647,
+      "sha256": "7d2842cf3b920c112ac5926a3168c71719eeedaf2b91975f45929d9f4a6d6922",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_build/R1ProductRuntimeAPI.swift",
+      "bytes": 11717,
+      "sha256": "8b79671f8ab505e72f7f901702c4330fc78cdfc7505564f18e84dd13683affaf",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_build/R1SandboxObservation.swift",
+      "bytes": 13106,
+      "sha256": "e67dd28812f0e6db193a01a45a8289f0a5521a370fb008089a284bea4ffd5e14",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_build/SDK15Compatibility.swift",
+      "bytes": 288,
+      "sha256": "1ff865ab3c4f18140f409645754ed8aa3974f7b915067db24f3a384fe82f16c9",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_product_native/R1A11OfflineExtraction.swift",
+      "bytes": 17639,
+      "sha256": "555a9edb9502b5beafb7d7e43c60be62a415ea619256d88a4d0b3a96e82fbe2b",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_product_native/R1A12OfflineRecovery.swift",
+      "bytes": 27125,
+      "sha256": "ed4125ad0422147d8711e526c644a58b8d9c42ed3e8daf903d5958bee536c235",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_review/ReviewModel.swift",
+      "bytes": 11804,
+      "sha256": "c14101ddc7391de5f4c1a0cde158f73cdb3acb775f2e08865eb3f952ae96008f",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "orchard_r1_review/ReviewPanel.swift",
+      "bytes": 5458,
+      "sha256": "2fc8934aa6efd725a9ea93cb125aaa2fab95f43d774f70ca5b7a5786151d59ca",
+      "role": "unchanged_UI300_compiled_Swift"
+    },
+    {
+      "path": "validation/orchard_r1_a1_zip_engine_20261108_01/LICENSE",
+      "bytes": 1065,
+      "sha256": "b7c7e4ee947bd81a7974b8292ee270eb0a642f83c7bc5bf59e76483370509e40",
+      "role": "runtime_source_or_template"
+    },
+    {
+      "path": "validation/orchard_r1_a1_zip_engine_20261108_01/FIXED_EXPECTATIONS.json",
+      "bytes": 2554,
+      "sha256": "7fead066d32921857d4bee305147159f3af3004623c7685ec03cf04756517c96",
+      "role": "runtime_source_or_template"
+    },
+    {
+      "path": "validation/orchard_r1_a1_zip_engine_20261108_01/engine/zip_inspector.py",
+      "bytes": 18036,
+      "sha256": "1b4a89d5bf288b1be4fa188bad98a57637c6eacdd8f55f12d5dc385ded74b7a6",
+      "role": "runtime_source_or_template"
+    },
+    {
+      "path": "orchard_r1_build/fresh_app/Info.plist.in",
+      "bytes": 1186,
+      "sha256": "02c0959c1693e2f54e272de9e013710a184a20e219fdc007bd906cbce56f8b9b",
+      "role": "runtime_source_or_template"
+    },
+    {
+      "path": "orchard_r1_build/fresh_app/Product.entitlements",
+      "bytes": 310,
+      "sha256": "9dc8b31381610f90b1a9f2d1cd469ffabd55751174c2473658550640b5a9d004",
+      "role": "runtime_source_or_template"
+    },
+    {
+      "path": "orchard_r1_build/fresh_app/Worker.entitlements",
+      "bytes": 288,
+      "sha256": "599fc6fb1351413e8b352c799d698e7ccda143c7bccec5bc43b6d83d788706cd",
+      "role": "runtime_source_or_template"
+    }
+  ],
+  "build_output_is_not_UI300_accepted_binary": true
+}

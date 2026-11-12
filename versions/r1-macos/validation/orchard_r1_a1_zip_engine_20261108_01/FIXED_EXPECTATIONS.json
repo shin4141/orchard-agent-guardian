@@ -1,0 +1,18 @@
+{
+  "schema": "orchard-r1-a1-fixed-zip-expectations/1.0",
+  "fixed_before_baseline_run": true,
+  "cases": {
+    "readme_override": {"inspection_status": "COMPLETE", "prompt_injection": "DETECTED", "gate": "HOLD", "required_categories": ["INSTRUCTION_OVERRIDE", "ROLE_SPOOFING", "AUTHORITY_SPOOFING"], "required_unknown_codes": []},
+    "agents_override": {"inspection_status": "COMPLETE", "prompt_injection": "DETECTED", "gate": "HOLD", "required_categories": ["INSTRUCTION_OVERRIDE", "ROLE_SPOOFING", "AUTHORITY_SPOOFING"], "required_unknown_codes": []},
+    "claude_override": {"inspection_status": "COMPLETE", "prompt_injection": "DETECTED", "gate": "HOLD", "required_categories": ["INSTRUCTION_OVERRIDE", "ROLE_SPOOFING", "AUTHORITY_SPOOFING"], "required_unknown_codes": []},
+    "cursorrules_override": {"inspection_status": "COMPLETE", "prompt_injection": "DETECTED", "gate": "HOLD", "required_categories": ["INSTRUCTION_OVERRIDE", "ROLE_SPOOFING", "AUTHORITY_SPOOFING"], "required_unknown_codes": []},
+    "benign_readme": {"inspection_status": "COMPLETE", "prompt_injection": "NOT_DETECTED", "gate": "CAP", "required_categories": [], "required_unknown_codes": []},
+    "encrypted_flag": {"inspection_status": "UNKNOWN", "prompt_injection": "UNINSPECTABLE", "gate": "HOLD", "required_categories": [], "required_unknown_codes": ["ENCRYPTED_ENTRY_UNSUPPORTED"]},
+    "nested_archive": {"inspection_status": "UNKNOWN", "prompt_injection": "UNINSPECTABLE", "gate": "HOLD", "required_categories": [], "required_unknown_codes": ["NESTED_ARCHIVE_UNINSPECTED"]},
+    "member_over_limit": {"inspection_status": "UNKNOWN", "prompt_injection": "UNINSPECTABLE", "gate": "HOLD", "required_categories": [], "required_unknown_codes": ["MEMBER_SIZE_LIMIT"]},
+    "unsupported_text_encoding": {"inspection_status": "UNKNOWN", "prompt_injection": "UNINSPECTABLE", "gate": "HOLD", "required_categories": [], "required_unknown_codes": ["TEXT_UNREADABLE_UnicodeDecodeError"]},
+    "central_local_mismatch": {"inspection_status": "UNKNOWN", "prompt_injection": "UNINSPECTABLE", "gate": "HOLD", "required_categories": [], "required_unknown_codes": ["LOCAL_METADATA_MISMATCH"]},
+    "detected_with_nested_unknown": {"inspection_status": "UNKNOWN", "prompt_injection": "DETECTED", "gate": "HOLD", "required_categories": ["INSTRUCTION_OVERRIDE", "ROLE_SPOOFING", "AUTHORITY_SPOOFING"], "required_unknown_codes": ["NESTED_ARCHIVE_UNINSPECTED"]}
+  },
+  "invariants": {"safety_proven": false, "authorizes_actions": false, "unknown_gate": "HOLD", "not_detected_gate": "CAP"}
+}
