@@ -9,13 +9,9 @@ other.
 | ZIP Inspector v0.1, standalone Python tool | [repository root](zip_inspector.py) | [Python instructions](#try-the-bundled-samples) |
 | Orchard Release 1, local macOS ZIP reviewer | [versions/r1-macos/](versions/r1-macos/) | [Mac README](versions/r1-macos/README.md) and [BUILD.md](versions/r1-macos/BUILD.md) |
 
-## About the developer
+## Maintainer
 
-Orchard is developed by Shinichi Nagata, an independent software developer.
-His [fix to NIST's macOS Security Compliance Project (mSCP)](https://github.com/usnistgov/macos_security/pull/775)
-was merged upstream and credited in [mSCP Release 27.0](https://github.com/usnistgov/macos_security/releases/tag/release_27.0).
-That contribution is separate from Orchard and does not imply NIST review,
-certification, or endorsement of this tool.
+Orchard is maintained by [@shin4141](https://github.com/shin4141).
 
 The repository keeps the published Python v0.1 files at the root. Mac Release 1
 is an additional source distribution under `versions/r1-macos/`; it has no
