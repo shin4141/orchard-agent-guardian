@@ -1,29 +1,34 @@
-# Orchard
+# Orchard 🍎
 
-Orchard publishes two separate developer source components here. Each has its
-own usage, verification and limits; a result from one does not qualify the
-other.
+**Orchard 0.4 (Release 1)** is a free, noncommercial Mac app for checking ZIPs locally *before extraction* and noticing changes to selected AI instruction files in local development folders. It uses limited suspicious-instruction rules and a fixed, bounded database of 100,000 known SHA-256 values. A match or nonmatch is **not** a safety verdict. No automatic database updates or ZIP uploads.
 
-| Component | Source | Build and use |
-| --- | --- | --- |
-| ZIP Inspector v0.1, standalone Python tool | [repository root](zip_inspector.py) | [Python instructions](#try-the-bundled-samples) |
-| Orchard Release 1, local macOS ZIP reviewer | [versions/r1-macos/](versions/r1-macos/) | [Mac README](versions/r1-macos/README.md) and [BUILD.md](versions/r1-macos/BUILD.md) |
+### Download Orchard 0.4 for Mac
+
+**[GitHub Releases — download the published Orchard 0.4 release](https://github.com/shin4141/orchard-zip-inspector/releases)**
+
+- **Mac:** Apple Silicon and macOS 26 or later; Japanese interface.
+- **Download:** `Orchard-0.4-build10-release.zip`. Expand this ZIP **once** to find `Orchard.app`, Japanese/English instructions, examples, source snapshot, and license notices. No separate Python or Homebrew installation.
+- **First launch:** The app is ad-hoc signed, **not Apple-notarized**. macOS may block the first launch; verify the source before following the app-specific steps in `INSTALL.ja.md` or `INSTALL.md` (see [Apple's official instructions](https://support.apple.com/en-us/102445)). Do not disable Gatekeeper globally.
+- **Verification:** `SHA256SUMS` is an optional download-integrity checksum, **not** a virus-definition update. The included 100,000-hash dataset is a fixed subset, not current or complete coverage.
+
+Published release assets appear on the Releases page. The software code's MIT license and the bundled MalwareBazaar data's conditional permission are separate.
 
 ## Maintainer
 
 Orchard is maintained by [@shin4141](https://github.com/shin4141).
 
-The repository keeps the published Python v0.1 files at the root. Mac Release 1
-is an additional source distribution under `versions/r1-macos/`; it has no
-prebuilt app or bundled Homebrew runtime binaries. Its source files are the
-approved 42-file packet, with a [source manifest](versions/r1-macos/SOURCE_MANIFEST.json),
-[SHA256SUMS](versions/r1-macos/SHA256SUMS), [MIT LICENSE](versions/r1-macos/LICENSE)
-and [third-party notices](versions/r1-macos/THIRD_PARTY_NOTICES.md).
-The existing root [MIT LICENSE](LICENSE) is byte-identical to the Mac packet's
-LICENSE. The Mac Build script copies runtime license texts from the developer's
-own Homebrew installation into the locally generated app.
+## Earlier developer sources
 
-## Mac Release 1: build and use
+The existing standalone Python ZIP Inspector and the earlier `r1-macos` **source-only prototype** are preserved below. Their validation and build instructions are separate from the Orchard 0.4 prebuilt app.
+
+| Component | Source | Build and use |
+| --- | --- | --- |
+| ZIP Inspector v0.1, standalone Python tool | [repository root](zip_inspector.py) | [Python instructions](#try-the-bundled-samples) |
+| Earlier macOS source-only prototype | [versions/r1-macos/](versions/r1-macos/) | [Mac README](versions/r1-macos/README.md) and [BUILD.md](versions/r1-macos/BUILD.md) |
+
+The earlier macOS source-only prototype has no prebuilt app or bundled Homebrew runtime binaries. Its source files are the approved 42-file packet, with a [source manifest](versions/r1-macos/SOURCE_MANIFEST.json), [SHA256SUMS](versions/r1-macos/SHA256SUMS), [MIT LICENSE](versions/r1-macos/LICENSE) and [third-party notices](versions/r1-macos/THIRD_PARTY_NOTICES.md). The existing root [MIT LICENSE](LICENSE) is byte-identical to that earlier Mac packet's LICENSE. The earlier Mac Build script copies runtime license texts from the developer's own Homebrew installation into a locally generated app.
+
+## Earlier macOS source-only prototype: build and use
 
 On an Apple Silicon Mac, install the Apple developer tools and the local
 Homebrew formulas listed in [Mac BUILD.md](versions/r1-macos/BUILD.md). Then
