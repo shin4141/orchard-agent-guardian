@@ -4,12 +4,14 @@
 
 ### Download Orchard 0.4 for Mac
 
-**[GitHub Releases — download the published Orchard 0.4 release](https://github.com/shin4141/orchard-zip-inspector/releases)**
+**[Download Orchard 0.4 r2 — Release 1](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2)**
 
 - **Mac:** Apple Silicon and macOS 26 or later; Japanese interface.
-- **Download:** `Orchard-0.4-build10-release.zip`. Expand this ZIP **once** to find `Orchard.app`, Japanese/English instructions, examples, source snapshot, and license notices. No separate Python or Homebrew installation.
-- **First launch:** The app is ad-hoc signed, **not Apple-notarized**. macOS may block the first launch; verify the source before following the app-specific steps in `INSTALL.ja.md` or `INSTALL.md` (see [Apple's official instructions](https://support.apple.com/en-us/102445)). Do not disable Gatekeeper globally.
+- **Download:** `Orchard-0.4-build10-release-r2.zip`. Expand this ZIP **once** and open `Orchard`: it contains exactly **Orchard.app** and **はじめに・説明書** (guides and notices). Open the app to use it; open the other folder for Japanese/English instructions, images, examples, source and licenses. No separate Python or Homebrew installation.
+- **First launch:** The app is ad-hoc signed, **not Apple-notarized**. macOS may block the first launch; verify the source before following the app-specific steps in [INSTALL.ja.md](versions/0.4-build10-r2/INSTALL.ja.md) or [INSTALL.md](versions/0.4-build10-r2/INSTALL.md) (see [Apple's official instructions](https://support.apple.com/en-us/102445)). Do not disable Gatekeeper globally.
 - **Verification:** `SHA256SUMS` is an optional download-integrity checksum, **not** a virus-definition update. The included 100,000-hash dataset is a fixed subset, not current or complete coverage.
+
+r2 changes only the distribution layout; the app remains Orchard 0.4 build10. The original [v0.4.0 release](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0) remains available. [日本語の案内](versions/0.4-build10-r2/README.ja.md).
 
 Published release assets appear on the Releases page. The software code's MIT license and the bundled MalwareBazaar data's conditional permission are separate.
 

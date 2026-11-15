@@ -1,0 +1,102 @@
+{
+  "schema": "orchard-build10-source-snapshot/1",
+  "version": "0.4",
+  "build": "10",
+  "reference_app_zip_sha256": "e49a6034b6f1d5dbee6e328837fb8b1c543a30b70a77e85e726b3905acfec04b",
+  "lookup_policy": "LOCAL_SNAPSHOT_AGE_ADVISORY_V1",
+  "files": [
+    {
+      "path": "src/swift/OrchardMain.swift",
+      "sha256": "5c073364aef1fedf90a30401ce05334cea17ab80a86c710c2769475c8ed2f71b",
+      "origin": "build10 compiled Swift input"
+    },
+    {
+      "path": "src/swift/ResidencyService.swift",
+      "sha256": "5e6f1c0e42a58a20d4de4ab0974a163ba52b1d9cfbf5a75134fe3d1a83956cd3",
+      "origin": "build10 compiled Swift input"
+    },
+    {
+      "path": "src/swift/SentinelRuntime.swift",
+      "sha256": "2e5c9cdb26255f990a48e8ba5c59e5265aac75a200f779e33c4911c9856ecf00",
+      "origin": "build10 compiled Swift input"
+    },
+    {
+      "path": "src/swift/OrchardZip.swift",
+      "sha256": "f6586f6a985804b49817b552d1b9da732ec2ae15e1261cd274dbb3acc5be6892",
+      "origin": "build10 compiled Swift input"
+    },
+    {
+      "path": "src/swift/R1WorkerProcessPort.swift",
+      "sha256": "20a3415d2ea66a8e3fc46b24cfaa5d573c7050516b8ef0750c1f29ddb66cb1de",
+      "origin": "build10 compiled Swift input"
+    },
+    {
+      "path": "src/swift/ReviewModel.swift",
+      "sha256": "00650d3306386db92a4b6736b8dcfc0385418cd784b5556f8e3e4b26db043204",
+      "origin": "build10 compiled Swift input"
+    },
+    {
+      "path": "src/swift/ThreatSummary.swift",
+      "sha256": "aa33564fc73ed5a0481f870a1a8260ea4c72ca57e911ee47ef553422c9df7ae0",
+      "origin": "build10 compiled Swift input"
+    },
+    {
+      "path": "src/c/PythonLauncher.c",
+      "sha256": "71476ab509bf91deacc5aef9218bf8e4542a2f799dd813435e6ec3b1a0fe6e5a",
+      "origin": "unchanged embedded Python launcher"
+    },
+    {
+      "path": "src/python/bounded_reader.py",
+      "sha256": "1701060fecfa5d617a8e9f316932432b044d361c2c99d377d4d05c6a275d1172",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/feed_adapter.py",
+      "sha256": "cadef777632d16742fad482de8f1a9d4e6ab2d0da2b399c20e534d082335a1f5",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/inspection.py",
+      "sha256": "3f4ad34cccee511a29cbebba7b2c7772021396c86ea7a9623e8964544e702ddf",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/r1_snapshot.py",
+      "sha256": "ac8ea4f9fcafb7771a2a13149430d82b2ba4a830747a461237041da061f8e35a",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/sandbox_probe.py",
+      "sha256": "e1579aed3ccd7add752be29d2994857abdb2d00253d855aaf5fb69825acd6335",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/threat_db.py",
+      "sha256": "d62eab691cd9a9d70bb922b718def06101fa520b10ac1a22f69eb1bf4c370253",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/warehouse_code/warehouse.py",
+      "sha256": "17fa694ff8945df6e258c912a4ef4c9fc78740bed6dec4c1b6d3c871871ec27e",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/warehouse_worker_entry.py",
+      "sha256": "183b21cefe23a12a234e178180331cb99feebe74b554af8409679518fe47a072",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/residency.py",
+      "sha256": "8179fdd911fa2a00887b370cc6c75025e19bf8450588624f5e444e010aa3c517",
+      "origin": "build10 bundled Python source"
+    },
+    {
+      "path": "src/python/sentinel.py",
+      "sha256": "6db086eb9f0433f453947fc1df2f70a5af573f27ee4089c06111429d8dc89a8c",
+      "origin": "build10 bundled Python source"
+    }
+  ],
+  "real_hash_data_in_this_source_snapshot": false,
+  "native_GUI_acceptance_claimed": true,
+  "native_GUI_acceptance_scope": "Same fixed build10: changed title/version and removed verification buttons; detected-text and benign ZIP results; no Sentinel/installation/OS menubar retest"
+}
