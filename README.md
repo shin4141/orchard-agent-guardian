@@ -1,6 +1,10 @@
 # Orchard 🍎
 
-**Orchard 0.4 (Release 1)** is a free, noncommercial Mac app for checking ZIPs locally *before extraction* and noticing changes to selected AI instruction files in local development folders. It uses limited suspicious-instruction rules and a fixed, bounded database of 100,000 known SHA-256 values. A match or nonmatch is **not** a safety verdict. No automatic database updates or ZIP uploads.
+**日本語でご覧の方へ：** Orchard 0.4は、MacでZIPを展開する前に確認し、開発フォルダ内の `AGENTS.md`・`CLAUDE.md`・`GEMINI.md` などの変更を見守る無料・非商用アプリです。検査結果は安全保証ではありません。  
+**入手・起動：** [Orchard 0.4 r2をダウンロード](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2)し、ZIPを**1回**展開して `Orchard/Orchard.app` を開きます。初回は[日本語の画像付き起動手順](versions/0.4-build10-r2/INSTALL.ja.md)を確認してください。  
+**詳しい説明：** [日本語の同梱マニュアル](versions/0.4-build10-r2/README.ja.md)を参照してください。冒頭の「説明書を閉じて」は、配布キット内で読む場合の案内です。
+
+**Orchard 0.4 (Release 1)** is a free, noncommercial Mac app for checking ZIPs locally *before extraction* and noticing changes to AI instruction files in local development folders, including `AGENTS.md`, `AGENTS.override.md`, `CLAUDE.md`, `CLAUDE.local.md`, and `GEMINI.md`. It uses limited suspicious-instruction rules and a fixed, bounded database of 100,000 known SHA-256 values. A match or nonmatch is **not** a safety verdict. No automatic database updates or ZIP uploads.
 
 ### Download Orchard 0.4 for Mac
 
@@ -11,7 +15,7 @@
 - **First launch:** The app is ad-hoc signed, **not Apple-notarized**. macOS may block the first launch; verify the source before following the app-specific steps in [INSTALL.ja.md](versions/0.4-build10-r2/INSTALL.ja.md) or [INSTALL.md](versions/0.4-build10-r2/INSTALL.md) (see [Apple's official instructions](https://support.apple.com/en-us/102445)). Do not disable Gatekeeper globally.
 - **Verification:** `SHA256SUMS` is an optional download-integrity checksum, **not** a virus-definition update. The included 100,000-hash dataset is a fixed subset, not current or complete coverage.
 
-r2 changes only the distribution layout; the app remains Orchard 0.4 build10. The original [v0.4.0 release](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0) remains available. [日本語の案内](versions/0.4-build10-r2/README.ja.md).
+r2 changes only the distribution layout; the app remains Orchard 0.4 build10. The original [v0.4.0 release](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0) remains available. [日本語の同梱説明書](versions/0.4-build10-r2/README.ja.md)（配布キット内で読む前提の案内を含みます）。
 
 Published release assets appear on the Releases page. The software code's MIT license and the bundled MalwareBazaar data's conditional permission are separate.
 
@@ -19,14 +23,16 @@ Published release assets appear on the Releases page. The software code's MIT li
 
 **Research prototype only — not included in the downloadable Orchard 0.4 app.**
 
-In one controlled, human-authorized run using Apple's Virtualization framework, Orchard's private research prototype demonstrated:
+**Why this matters:** For future investigation of untrusted files inside an isolated virtual machine (VM), a process exiting is not enough: the VM must actually stop, its owned temporary resources must be accounted for, and the operation must have a verifiable end state. This milestone demonstrates those steps in one controlled real-VM run; **it is not a test of malicious-file containment**.
 
-- **Execution:** One production authorization/issue, one real-VM creation and start, and **zero retries**.
-- **L2 — Verified stop:** A VM-bound stop callback succeeded, followed by a readback of the VM's `stopped` state.
-- **L3 — Owned-resource cleanup:** Managed handles and the VM object were released; the owned disk and area were confirmed absent.
-- **D2 — Responsibility closure:** The formal ledger reached `RESOLVED / TERMINAL_RESPONSIBILITY_CLOSED` with no unresolved host latch. Evidence was preserved and independently read back.
+In one human-authorized run using Apple's Virtualization framework, Orchard's private research prototype demonstrated:
 
-**Scope and limits:** This establishes one bounded real-VM lifecycle result, **not** general malware containment, protection against sandbox escape, or reliability across arbitrary files and environments. The parent process exit receipt alone did not prove VM stopping; the L2 result uses separate VM-bound evidence. Release of service-internal VM backing remains **UNKNOWN**.
+- **Real execution:** One production authorization/issue, one VM creation and start, and **zero retries**.
+- **VM stopped (L2):** The VM reported a successful stop callback, and a separate check confirmed the `stopped` state.
+- **Owned resources cleaned up (L3):** Managed handles and the VM object were released; the owned disk and area were confirmed absent.
+- **Completion recorded and verified (D2):** The formal ledger reached `RESOLVED / TERMINAL_RESPONSIBILITY_CLOSED` with no unresolved host latch. Evidence was preserved and independently read back.
+
+**Scope and limits:** This is one bounded real-VM lifecycle result, **not** general malware containment, protection against sandbox escape, or reliability across arbitrary files and environments. The parent process exit receipt alone did not prove the VM stopped; that conclusion relies on separate VM-bound evidence. Release of internal backing resources managed by the virtualization service was **not independently verified** (`serviceBacking=UNKNOWN`).
 
 The VM implementation and underlying evidence remain private. **Orchard 0.4 does not provide VM inspection or VM execution**, and this repository's MIT license does not license the private VM prototype. Integration, distribution and licensing are separate future decisions.
 
