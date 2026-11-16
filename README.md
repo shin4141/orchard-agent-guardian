@@ -1,8 +1,19 @@
 # Orchard 🍎
 
-**日本語でご覧の方へ：** Orchard 0.4は、MacでZIPを展開する前に確認し、開発フォルダ内の `AGENTS.md`・`CLAUDE.md`・`GEMINI.md` などの変更を見守る無料・非商用アプリです。検査結果は安全保証ではありません。  
-**入手・起動：** [Orchard 0.4 r2をダウンロード](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2)し、ZIPを**1回**展開して `Orchard/Orchard.app` を開きます。初回は[日本語の画像付き起動手順](versions/0.4-build10-r2/INSTALL.ja.md)を確認してください。  
-**詳しい説明：** [日本語の同梱マニュアル](versions/0.4-build10-r2/README.ja.md)を参照してください。冒頭の「説明書を閉じて」は、配布キット内で読む場合の案内です。
+## Orchardって何？
+
+**ZIPをAIに渡したり展開したりする前に、中の不審な指示を確認する無料・非商用のMacアプリです。** 既知SHA-256の限定10万件と照合する機能もあります。開発者向けには、`AGENTS.md`・`CLAUDE.md`・`GEMINI.md` などの変更を見守る機能があります。**検査結果は安全の保証ではありません。**
+
+### はじめて使う方へ（日本語）
+
+1. [**Orchard 0.4 r2 のダウンロードページ**](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2)の **Assets** から `Orchard-0.4-build10-release-r2.zip` を選びます。GitHubが自動表示する `Source code (zip)` ではありません。
+2. ZIPを**1回だけ展開**してできた `Orchard` フォルダを開きます。**Safariが自動で展開した場合は、ダウンロード先にある `Orchard` フォルダを探してください。** 二重に展開する必要はありません。
+3. `Orchard` の中には **`Orchard.app`** と **`はじめに・説明書`** の2つがあります。使うときはアプリを開きます。macOSの警告が出たら[画像付きの初回起動手順](versions/0.4-build10-r2/INSTALL.ja.md)をご覧ください。
+4. `SHA256SUMS` は**ダウンロードしたZIPの同一性を詳しく確かめたい方向け**の別ファイルです。毎日取得するデータではなく、アプリを使い始めるための必須操作でもありません。[照合方法](versions/0.4-build10-r2/VERIFY.md)。
+
+対応：**Apple Silicon・macOS 26以降**。Appleによる公証はないため、起動時に個別承認が必要な場合があります。Mac全体の保護を無効にしないでください。
+
+[詳しい日本語README](versions/0.4-build10-r2/README.ja.md) · [英語の導入手順](versions/0.4-build10-r2/INSTALL.md)
 
 **Orchard 0.4 (Release 1)** is a free, noncommercial Mac app for checking ZIPs locally *before extraction* and noticing changes to AI instruction files in local development folders, including `AGENTS.md`, `AGENTS.override.md`, `CLAUDE.md`, `CLAUDE.local.md`, and `GEMINI.md`. It uses limited suspicious-instruction rules and a fixed, bounded database of 100,000 known SHA-256 values. A match or nonmatch is **not** a safety verdict. No automatic database updates or ZIP uploads.
 
