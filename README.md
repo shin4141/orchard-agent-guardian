@@ -1,5 +1,15 @@
 # Orchard 🍎
 
+最新版のアプリ配布: **[Orchard 🍎 0.4 build12](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r3)**。
+
+[画像付き導入手順](versions/0.4-build12/INSTALL.ja.md) / [更新時の登録引き継ぎ](versions/0.4-build12/UPDATE.ja.md) / [検証範囲と限界](versions/0.4-build12/LIMITS.md) / [English](versions/0.4-build12/README.md)。
+
+旧版 [v0.4.0-r2](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2) は保持しています。
+
+## 旧r2（build10）の説明 / Previous r2 documentation
+
+以下は旧r2の案内です。r3の使い方と検証範囲は上のリンク先をご覧ください。
+
 ## Orchardって何？
 
 **ZIPをAIに渡したり展開したりする前に、中の不審な指示を確認する無料・非商用のMacアプリです。** 既知SHA-256の限定10万件と照合する機能もあります。開発者向けには、`AGENTS.md`・`CLAUDE.md`・`GEMINI.md` などの変更を見守る機能があります。**検査結果は安全の保証ではありません。**

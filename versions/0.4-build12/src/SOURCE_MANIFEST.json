@@ -1,0 +1,112 @@
+{
+  "build": "12",
+  "files": [
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/swift/OrchardMain.swift",
+      "sha256": "625b18b1966bd75d9d1a4292caa7a1b394ba042b021a0d3f7d9bea2d29291ea1"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/swift/ResidencyService.swift",
+      "sha256": "2312c6d5c7ae0e5f1141edde601387e8ccbb481e9f2b7a9196c7f8406956ce86"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/swift/SentinelRuntime.swift",
+      "sha256": "c6db2d0000932b79863596857be4464c13a16059a707fe6807f699ae5037ad51"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/swift/OrchardZip.swift",
+      "sha256": "cc3c1555eb7604ff4002825e98f16c054026c84ab2ca4fbf9b4c209d2a1c8aed"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/swift/R1WorkerProcessPort.swift",
+      "sha256": "20a3415d2ea66a8e3fc46b24cfaa5d573c7050516b8ef0750c1f29ddb66cb1de"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/swift/ReviewModel.swift",
+      "sha256": "00650d3306386db92a4b6736b8dcfc0385418cd784b5556f8e3e4b26db043204"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/swift/ThreatSummary.swift",
+      "sha256": "e6ef2113a445d9e8889b4e9f78ea63d6456f9b3f4887030447b329eb0f9710a4"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/c/PythonLauncher.c",
+      "sha256": "71476ab509bf91deacc5aef9218bf8e4542a2f799dd813435e6ec3b1a0fe6e5a"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/bounded_reader.py",
+      "sha256": "e5634454fccda7a2a62f93ab39b04f0eb0a686048ec07fbbd4d63328006bff72"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/feed_adapter.py",
+      "sha256": "cadef777632d16742fad482de8f1a9d4e6ab2d0da2b399c20e534d082335a1f5"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/inspection.py",
+      "sha256": "3f4ad34cccee511a29cbebba7b2c7772021396c86ea7a9623e8964544e702ddf"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/r1_snapshot.py",
+      "sha256": "ac8ea4f9fcafb7771a2a13149430d82b2ba4a830747a461237041da061f8e35a"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/sandbox_probe.py",
+      "sha256": "e1579aed3ccd7add752be29d2994857abdb2d00253d855aaf5fb69825acd6335"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/threat_db.py",
+      "sha256": "d62eab691cd9a9d70bb922b718def06101fa520b10ac1a22f69eb1bf4c370253"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/warehouse_code/warehouse.py",
+      "sha256": "17fa694ff8945df6e258c912a4ef4c9fc78740bed6dec4c1b6d3c871871ec27e"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/warehouse_worker_entry.py",
+      "sha256": "fdcd1582f7557562e231c3f8030d033b46ef2e294d502a0fca4a241408034c1e"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/residency.py",
+      "sha256": "8179fdd911fa2a00887b370cc6c75025e19bf8450588624f5e444e010aa3c517"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/sentinel.py",
+      "sha256": "6db086eb9f0433f453947fc1df2f70a5af573f27ee4089c06111429d8dc89a8c"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/swift/RegistrationContinuity.swift",
+      "sha256": "15ed5327dd7f0d10143ec46bf72f4f9e134328a45c66556169983c0ff318d84e"
+    },
+    {
+      "origin": "build12 exact compiled/bundled source; retained build11 dependencies",
+      "path": "src/python/registration_continuity.py",
+      "sha256": "0a7da1bda9438e726c183cd9244b55213516725886a41473a99ef129e75f1f98"
+    }
+  ],
+  "lookup_policy": "LOCAL_SNAPSHOT_AGE_ADVISORY_V1",
+  "native_GUI_acceptance_claimed": true,
+  "native_GUI_acceptance_scope": "Three disposable r2-equivalent cases in the same fixed build12: pending 0/1 adoption, manual monitoring/change/review/cancel/stop, invalid registration refusal; one inert ZIP; no real registration switch",
+  "real_hash_data_in_this_source_snapshot": false,
+  "reference_app_zip_sha256": "ab76aef2fb43e9eb9aae62099283c5fc26273cee7f682f6e86934808c9f7365e",
+  "schema": "orchard-build12-source-snapshot/1",
+  "version": "0.4"
+}
