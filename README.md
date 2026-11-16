@@ -15,6 +15,21 @@ r2 changes only the distribution layout; the app remains Orchard 0.4 build10. Th
 
 Published release assets appear on the Releases page. The software code's MIT license and the bundled MalwareBazaar data's conditional permission are separate.
 
+## Research milestone — Real-VM lifecycle closure (November 16, 2026)
+
+**Research prototype only — not included in the downloadable Orchard 0.4 app.**
+
+In one controlled, human-authorized run using Apple's Virtualization framework, Orchard's private research prototype demonstrated:
+
+- **Execution:** One production authorization/issue, one real-VM creation and start, and **zero retries**.
+- **L2 — Verified stop:** A VM-bound stop callback succeeded, followed by a readback of the VM's `stopped` state.
+- **L3 — Owned-resource cleanup:** Managed handles and the VM object were released; the owned disk and area were confirmed absent.
+- **D2 — Responsibility closure:** The formal ledger reached `RESOLVED / TERMINAL_RESPONSIBILITY_CLOSED` with no unresolved host latch. Evidence was preserved and independently read back.
+
+**Scope and limits:** This establishes one bounded real-VM lifecycle result, **not** general malware containment, protection against sandbox escape, or reliability across arbitrary files and environments. The parent process exit receipt alone did not prove VM stopping; the L2 result uses separate VM-bound evidence. Release of service-internal VM backing remains **UNKNOWN**.
+
+The VM implementation and underlying evidence remain private. **Orchard 0.4 does not provide VM inspection or VM execution**, and this repository's MIT license does not license the private VM prototype. Integration, distribution and licensing are separate future decisions.
+
 ## Maintainer
 
 Orchard is maintained by [@shin4141](https://github.com/shin4141).
