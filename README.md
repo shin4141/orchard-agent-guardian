@@ -4,6 +4,18 @@
 
 [画像付き導入手順](versions/0.4-build12/INSTALL.ja.md) / [更新時の登録引き継ぎ](versions/0.4-build12/UPDATE.ja.md) / [検証範囲と限界](versions/0.4-build12/LIMITS.md) / [English](versions/0.4-build12/README.md)。
 
+## Orchard 🍎 — 36-second Cinematic Preview
+
+[![Play the Orchard cinematic preview (36 seconds)](https://shin4141.github.io/orchard-zip-inspector/orchard-video01-thumbnail.jpg)](https://shin4141.github.io/orchard-zip-inspector/)
+
+Take a closer look inside a ZIP before you trust it.
+
+Orchard provides limited static inspection of suspicious instructions, SHA-256 matching, and manual monitoring of changes to AI instruction files.
+
+*The video includes cinematic visualization, a simulated English-language UI preview, and simulated data. Inspection results are not a safety guarantee.*
+
+[Watch the 36-second preview](https://shin4141.github.io/orchard-zip-inspector/) · [Download MP4](https://github.com/shin4141/orchard-zip-inspector/releases/download/video01-full-v2/orchard-video01-full-v2-en-subs.mp4)
+
 旧版 [v0.4.0-r2](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2) は保持しています。
 
 ## 旧r2（build10）の説明 / Previous r2 documentation
