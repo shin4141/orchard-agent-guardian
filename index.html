@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Watch Orchard’s 36-second cinematic preview with English narration and captions.">
+  <title>Orchard 🍎 — 36-second Cinematic Preview</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, sans-serif;
+      background: #101217;
+      color: #f3f4f7;
+    }
+    body { margin: 0; }
+    main { box-sizing: border-box; max-width: 63rem; margin: auto; padding: clamp(1.25rem, 4vw, 3rem); }
+    h1 { font-size: clamp(1.5rem, 3.4vw, 2.35rem); line-height: 1.15; margin: 0 0 .65rem; }
+    p { line-height: 1.55; margin: .65rem 0; }
+    .note { color: #bbbec9; }
+    video {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      border: 1px solid #454953;
+      border-radius: .7rem;
+      box-sizing: border-box;
+      margin: 1.3rem 0 1rem;
+    }
+    nav { display: flex; flex-wrap: wrap; gap: .55rem 1.5rem; margin-top: 1.1rem; }
+    a { color: #d4e2ff; text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid #eef3ff; outline-offset: .25rem; border-radius: .1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Orchard 🍎 — 36-second Cinematic Preview</h1>
+    <p>Take a closer look inside a ZIP before you trust it.</p>
+    <video controls playsinline preload="metadata" width="1920" height="1080"
+      poster="orchard-video01-thumbnail.jpg" aria-label="Orchard cinematic preview with English narration and captions">
+      <source src="orchard-video01-full-v2-en-subs.mp4" type="video/mp4">
+      <a href="https://github.com/shin4141/orchard-zip-inspector/releases/download/video01-full-v2/orchard-video01-full-v2-en-subs.mp4">Download MP4</a>
+    </video>
+    <p class="note">The video includes cinematic visualization, a simulated English-language UI preview, and simulated data. Inspection results are not a safety guarantee.</p>
+    <nav aria-label="Preview links">
+      <a href="https://github.com/shin4141/orchard-zip-inspector/releases/download/video01-full-v2/orchard-video01-full-v2-en-subs.mp4">Download MP4</a>
+      <a href="https://github.com/shin4141/orchard-zip-inspector/releases/download/video01-full-v2/SHA256SUMS.txt">SHA-256</a>
+      <a href="https://github.com/shin4141/orchard-zip-inspector#readme">Orchard on GitHub</a>
+    </nav>
+  </main>
+</body>
+</html>
