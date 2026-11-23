@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>OrchardZipWorker</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.orchard.oss.worker</string>
+	<key>CFBundleName</key>
+	<string>Orchard Inspection Worker</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleVersion</key>
+	<string>12</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+</dict>
+</plist>

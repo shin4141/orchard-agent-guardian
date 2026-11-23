@@ -1,8 +1,14 @@
 # Orchard 🍎
 
-最新版のアプリ配布: **[Orchard 🍎 0.4 build12](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r3)**。
+**[最新版 Orchard 🍎 0.4 r4 — Apple公証済み](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r4)**（build12、Apple Silicon／macOS 26以降）。
 
-[画像付き導入手順](versions/0.4-build12/INSTALL.ja.md) / [更新時の登録引き継ぎ](versions/0.4-build12/UPDATE.ja.md) / [検証範囲と限界](versions/0.4-build12/LIMITS.md) / [English](versions/0.4-build12/README.md)。
+ReleaseのAssetsから `Orchard-0.4.0-r4-macos-arm64.zip` と `SHA256SUMS` をダウンロードできます。展開先の `Orchard-0.4-r4` に `Orchard Final Verified.app`、日本語・英語の導入案内とライセンスが入っています。
+
+**[Download Orchard 0.4 r4 for Mac](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r4)**. Expand the release ZIP and open `Orchard Final Verified.app`. The app is signed with Apple Developer ID and notarized by Apple. The ZIP includes English and Japanese guides, MIT and third-party licenses, and data attribution.
+
+[r4の対応ソース](versions/0.4-build12-r4/SOURCE_BUILD.md) · [r4 source and build information](versions/0.4-build12-r4/SOURCE_BUILD.md)
+
+[旧r3のRelease](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r3) · [旧r3の導入・更新資料](versions/0.4-build12/README.ja.md)
 
 ## Orchard 🍎 — 36-second Cinematic Preview
 
@@ -20,7 +26,7 @@ Orchard provides limited static inspection of suspicious instructions, SHA-256 m
 
 ## 旧r2（build10）の説明 / Previous r2 documentation
 
-以下は旧r2の案内です。r3の使い方と検証範囲は上のリンク先をご覧ください。
+以下は旧r2の案内です。現行r4のダウンロードと導入手順は上のReleaseをご覧ください。
 
 ## Orchardって何？
 

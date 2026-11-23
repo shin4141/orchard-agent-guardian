@@ -1,0 +1,174 @@
+{
+  "app_version": "0.4",
+  "bundle_build": "12",
+  "data_scope": "See DATA_SOURCES.md for the separately licensed bundled SHA-256 subset.",
+  "dependencies": {
+    "CPython": "3.14.3",
+    "SQLite": "3.53.3"
+  },
+  "implementation_and_bundle_inputs": {
+    "src/c/PythonLauncher.c": {
+      "bytes": 3048,
+      "kind": "C",
+      "sha256": "71476ab509bf91deacc5aef9218bf8e4542a2f799dd813435e6ec3b1a0fe6e5a"
+    },
+    "src/python/host/registration_continuity.py": {
+      "bytes": 26742,
+      "kind": "Python",
+      "sha256": "e1485a984c2fa6c68957dcd1cb5052460c695a8fb70ab226a83888d20b4b09ff"
+    },
+    "src/python/host/residency.py": {
+      "bytes": 7514,
+      "kind": "Python",
+      "sha256": "8179fdd911fa2a00887b370cc6c75025e19bf8450588624f5e444e010aa3c517"
+    },
+    "src/python/host/sentinel.py": {
+      "bytes": 118692,
+      "kind": "Python",
+      "sha256": "94ead2bc0e2f88cdb44aeda7435d12b0b5fbb5ce2e37dc2eb8935098ce483f90"
+    },
+    "src/python/worker/POLICY.json": {
+      "bytes": 1103,
+      "kind": "Resource",
+      "sha256": "bc5f04d4d5e9d20cd42b02e4518c12095cd735adc7b30fd6386b92db5a8e7422"
+    },
+    "src/python/worker/bounded_reader.py": {
+      "bytes": 8699,
+      "kind": "Python",
+      "sha256": "e5634454fccda7a2a62f93ab39b04f0eb0a686048ec07fbbd4d63328006bff72"
+    },
+    "src/python/worker/feed_adapter.py": {
+      "bytes": 21442,
+      "kind": "Python",
+      "sha256": "cadef777632d16742fad482de8f1a9d4e6ab2d0da2b399c20e534d082335a1f5"
+    },
+    "src/python/worker/inspection.py": {
+      "bytes": 10970,
+      "kind": "Python",
+      "sha256": "cebc55d39c3d9a4e9b0709029d644f219294e30cdcd1244c31c4be6bfea613ed"
+    },
+    "src/python/worker/r1_snapshot.py": {
+      "bytes": 103166,
+      "kind": "Python",
+      "sha256": "e07950568539080be1b95e0092e23b1907650517139567612a9a163fe590f604"
+    },
+    "src/python/worker/sandbox_probe.py": {
+      "bytes": 1480,
+      "kind": "Python",
+      "sha256": "e1579aed3ccd7add752be29d2994857abdb2d00253d855aaf5fb69825acd6335"
+    },
+    "src/python/worker/threat_db.py": {
+      "bytes": 15779,
+      "kind": "Python",
+      "sha256": "d62eab691cd9a9d70bb922b718def06101fa520b10ac1a22f69eb1bf4c370253"
+    },
+    "src/python/worker/warehouse_code/warehouse.py": {
+      "bytes": 26467,
+      "kind": "Python",
+      "sha256": "17fa694ff8945df6e258c912a4ef4c9fc78740bed6dec4c1b6d3c871871ec27e"
+    },
+    "src/python/worker/warehouse_worker_entry.py": {
+      "bytes": 12246,
+      "kind": "Python",
+      "sha256": "daec5e9230444c156f30d647deccc5fb44b0a14a651b5fda36dd7a97fe58512a"
+    },
+    "src/resources/App-Info.plist": {
+      "bytes": 869,
+      "kind": "Resource",
+      "sha256": "65f79bd3577534e398a63d2d979dbcfabcb7237b1c73f3adaabcbaccf78ab51d"
+    },
+    "src/resources/Worker-Info.plist": {
+      "bytes": 597,
+      "kind": "Resource",
+      "sha256": "a3277e69350760ce2975bd31aa7d1816e3de35033d1345bc88d0a1e54c6f0fa3"
+    },
+    "src/resources/Worker.entitlements": {
+      "bytes": 240,
+      "kind": "Resource",
+      "sha256": "b746c74b201e6af4e0864fbd1f4f629f96156a7ec4b7208bc995d0a5089bb592"
+    },
+    "src/swift/LocalReportStore.swift": {
+      "bytes": 13721,
+      "kind": "Swift",
+      "sha256": "612f8f305ac1961f4c6f585cb88dd94b2865ee0af25c2b7b99596f2eca1047f5"
+    },
+    "src/swift/OrchardMain.swift": {
+      "bytes": 232590,
+      "kind": "Swift",
+      "sha256": "093acca7bd6c6bd374944e11a5daed7601deba25a9092201187ce826dca0ceb6"
+    },
+    "src/swift/OrchardZip.swift": {
+      "bytes": 173259,
+      "kind": "Swift",
+      "sha256": "86ad48716d48fd7c87ac51cfd7d20d93123eb45ed6d42e931f2b02fcaabf4978"
+    },
+    "src/swift/R1WorkerProcessPort.swift": {
+      "bytes": 24002,
+      "kind": "Swift",
+      "sha256": "1d0e97d92f955e9bd2a51232fb7fbb1bd57b1636f74d5d7af4f3b2d1ec1fecbd"
+    },
+    "src/swift/RegistrationContinuity.swift": {
+      "bytes": 7738,
+      "kind": "Swift",
+      "sha256": "0a425f57862a7ad7f9b6cda795b96d6431e0230fbacf9088314fe518692efdfc"
+    },
+    "src/swift/ResidencyService.swift": {
+      "bytes": 9541,
+      "kind": "Swift",
+      "sha256": "74dfd71ed0eefd5e4ab246198f2d642416b0209ec9dccb72d273d859fd306f00"
+    },
+    "src/swift/ReviewModel.swift": {
+      "bytes": 56380,
+      "kind": "Swift",
+      "sha256": "4b8922a8378e639f722a3a66e14dd7135daae9ab87acbad427c348905435b8ee"
+    },
+    "src/swift/SentinelRuntime.swift": {
+      "bytes": 10794,
+      "kind": "Swift",
+      "sha256": "4abd0be2976d6d29689cc3e409b726af3a2a15ca59f64a98a4b21b25ec6ec233"
+    },
+    "src/swift/ThreatSummary.swift": {
+      "bytes": 19413,
+      "kind": "Swift",
+      "sha256": "e13441ec9dc643573077b5649d39a74739f1eee67838983103397f2c57c41667"
+    }
+  },
+  "observed_host_sdk_version": "26.5.0",
+  "ordered_swift_inputs": [
+    "src/swift/OrchardMain.swift",
+    "src/swift/ResidencyService.swift",
+    "src/swift/SentinelRuntime.swift",
+    "src/swift/OrchardZip.swift",
+    "src/swift/R1WorkerProcessPort.swift",
+    "src/swift/ReviewModel.swift",
+    "src/swift/ThreatSummary.swift",
+    "src/swift/RegistrationContinuity.swift",
+    "src/swift/LocalReportStore.swift"
+  ],
+  "platform": "Apple Silicon, macOS 26 or later",
+  "release": "v0.4.0-r4",
+  "runtime_resource_destinations": {
+    "src/python/host/registration_continuity.py": "Contents/Resources/registration_continuity.py",
+    "src/python/host/residency.py": "Contents/Resources/residency.py",
+    "src/python/host/sentinel.py": "Contents/Resources/sentinel.py",
+    "src/python/worker/POLICY.json": "Contents/Helpers/OrchardInspection.app/Contents/Resources/POLICY.json",
+    "src/python/worker/bounded_reader.py": "Contents/Helpers/OrchardInspection.app/Contents/Resources/bounded_reader.py",
+    "src/python/worker/feed_adapter.py": "Contents/Helpers/OrchardInspection.app/Contents/Resources/feed_adapter.py",
+    "src/python/worker/inspection.py": "Contents/Helpers/OrchardInspection.app/Contents/Resources/inspection.py",
+    "src/python/worker/r1_snapshot.py": "Contents/Helpers/OrchardInspection.app/Contents/Resources/r1_snapshot.py",
+    "src/python/worker/sandbox_probe.py": "Contents/Helpers/OrchardInspection.app/Contents/Resources/sandbox_probe.py",
+    "src/python/worker/threat_db.py": "Contents/Helpers/OrchardInspection.app/Contents/Resources/threat_db.py",
+    "src/python/worker/warehouse_code/warehouse.py": "Contents/Helpers/OrchardInspection.app/Contents/Resources/warehouse_code/warehouse.py",
+    "src/python/worker/warehouse_worker_entry.py": "Contents/Helpers/OrchardInspection.app/Contents/Resources/warehouse_worker_entry.py",
+    "src/resources/App-Info.plist": "Contents/Info.plist",
+    "src/resources/Worker-Info.plist": "Contents/Helpers/OrchardInspection.app/Contents/Info.plist"
+  },
+  "swift_compiler_flags": [
+    "-Xlinker",
+    "-no_adhoc_codesign",
+    "-parse-as-library",
+    "-O",
+    "-target",
+    "arm64-apple-macos26.0"
+  ]
+}
