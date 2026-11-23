@@ -14,12 +14,6 @@ ReleaseのAssetsから `Orchard-0.4.0-r4-macos-arm64.zip` と `SHA256SUMS` を�
 
 [r4の対応ソース](versions/0.4-build12-r4/SOURCE_BUILD.md) · [r4 source and build information](versions/0.4-build12-r4/SOURCE_BUILD.md)
 
-### 開発者のmacOSセキュリティ関連OSSへの貢献 / Maintainer's upstream contribution
-
-開発者 [@shin4141](https://github.com/shin4141) は、NISTの [macOS Security Compliance Project（mSCP）](https://github.com/usnistgov/macos_security) で、除外対象のルールがJSON manifestに含まれる不具合を修正しました。[PR #775](https://github.com/usnistgov/macos_security/pull/775) は2026年8月26日にマージされ、[mSCP Release 27.0](https://github.com/usnistgov/macos_security/releases/tag/release_27.0) のリリースノートにも貢献者として掲載されています。これはNISTのmacOSセキュリティ関連OSSへの貢献であり、AppleのmacOS本体への採用やApple・NISTによるOrchardの推奨を意味しません。
-
-The maintainer contributed [PR #775](https://github.com/usnistgov/macos_security/pull/775) to NIST's macOS Security Compliance Project, fixing excluded rules incorrectly appearing in JSON manifests. The fix was merged and credited in [mSCP Release 27.0](https://github.com/usnistgov/macos_security/releases/tag/release_27.0). This is an upstream security-OSS contribution, not a change to Apple's macOS operating system or an endorsement of Orchard.
-
 [旧r3のRelease](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r3) · [旧r3の導入・更新資料](versions/0.4-build12/README.ja.md)
 
 ## Orchard Agent Guardian 🍎 — 36-second Brand Concept Film
@@ -188,3 +182,9 @@ The `gate` field is a report label: `HOLD` for findings or UNKNOWN, `CAP` for a 
 Obfuscation, paraphrases, other languages, images/binary content, nested content, general malware, AI-model behavior, and OS isolation are outside the validated scope. Use the synthetic samples to reproduce this candidate; arbitrary real-world archives have not been qualified. Input bytes are read-only, but full filesystem-metadata immutability is not claimed.
 
 See [REVIEW.md](REVIEW.md) for the v0.1 release review and [REPRODUCIBILITY.json](REPRODUCIBILITY.json) for its clean-environment results. Those files and [RELEASE_DECISION.md](RELEASE_DECISION.md) record the 2026-11-06 standalone release; historical scope and pending-status statements in them do not describe the later macOS source addition. The MIT license applies to the source in this repository subject to the notices for each component. The Python v0.1 validation does not qualify the macOS app.
+
+## 開発者のmacOSセキュリティ関連OSSへの貢献 / Maintainer's upstream contribution
+
+開発者 [@shin4141](https://github.com/shin4141) は、NISTの [macOS Security Compliance Project（mSCP）](https://github.com/usnistgov/macos_security) で、除外対象のルールがJSON manifestに含まれる不具合を修正しました。[PR #775](https://github.com/usnistgov/macos_security/pull/775) は2026年8月26日にマージされ、[mSCP Release 27.0](https://github.com/usnistgov/macos_security/releases/tag/release_27.0) のリリースノートにも貢献者として掲載されています。これはNISTのmacOSセキュリティ関連OSSへの貢献であり、AppleのmacOS本体への採用やApple・NISTによるOrchardの推奨を意味しません。
+
+The maintainer contributed [PR #775](https://github.com/usnistgov/macos_security/pull/775) to NIST's macOS Security Compliance Project, fixing excluded rules incorrectly appearing in JSON manifests. The fix was merged and credited in [mSCP Release 27.0](https://github.com/usnistgov/macos_security/releases/tag/release_27.0). This is an upstream security-OSS contribution, not a change to Apple's macOS operating system or an endorsement of Orchard.
