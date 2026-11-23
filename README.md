@@ -1,8 +1,8 @@
 # Orchard Agent Guardian 🍎
 
-**Orchard Agent Guardian** はOrchard製品群の新しいブランド名です。現在ダウンロードできる正式版は **Orchard 🍎 0.4 r4** で、ZIPの限定的な静的検査、SHA-256照合、AI指示ファイル変更の人間向けレビューに対応します。AIエージェントの実行前Hookは独立したRelease 2開発レーンの対象であり、**r4には統合されていません**。検査結果は安全保証ではありません。
+**Orchard Agent Guardian** はOrchard製品群の新しいブランド名です。現在ダウンロードできる正式版は **Orchard 🍎 0.4 r4** です。ZIP内の不審な指示の限定的な静的検査、既知SHA-256照合に加え、**`AGENTS.md`・`AGENTS.override.md`・`CLAUDE.md`・`CLAUDE.local.md`・`GEMINI.md`** の変更監視と人間による差分レビューに対応します。AIエージェントの実行前Hookは独立したRelease 2開発レーンの対象であり、**r4には統合されていません**。検査結果は安全保証ではありません。
 
-**Brand / release scope:** Orchard Agent Guardian is the new product-family name. The currently published Mac app is **Orchard 0.4 r4**. Agent pre-execution hooks are being developed separately and are **not included in r4**. Inspection does not guarantee safety.
+**Brand / release scope:** Orchard Agent Guardian is the new product-family name. The currently published Mac app is **Orchard 0.4 r4**. r4 monitors changes to **`AGENTS.md`, `AGENTS.override.md`, `CLAUDE.md`, `CLAUDE.local.md`, and `GEMINI.md`**. Agent pre-execution hooks are being developed separately and are **not included in r4**. Inspection does not guarantee safety.
 
 **ライセンス / Licensing:** Orchard独自ソフトウェアはMITライセンス。付属するMalwareBazaar SHA-256データには**無料・非商用OSSのOrchardに限定された別の条件付き許諾**が適用され、MITライセンスの対象ではありません。詳細は [r4ライセンス範囲](versions/0.4-build12-r4/LICENSE_SCOPE.md)、[データ出典・条件](versions/0.4-build12-r4/DATA_SOURCES.md)、[第三者ライセンス](versions/0.4-build12-r4/THIRD_PARTY_NOTICES.md) を参照してください。
 
