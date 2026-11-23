@@ -16,17 +16,17 @@ ReleaseのAssetsから `Orchard-0.4.0-r4-macos-arm64.zip` と `SHA256SUMS` を�
 
 [旧r3のRelease](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r3) · [旧r3の導入・更新資料](versions/0.4-build12/README.ja.md)
 
-## Orchard Agent Guardian 🍎 — 36-second Cinematic Preview
+## Orchard Agent Guardian 🍎 — 36-second Brand Concept Film
 
-[![Play the Orchard cinematic preview (36 seconds)](https://shin4141.github.io/orchard-agent-guardian/orchard-video01-thumbnail.jpg)](https://shin4141.github.io/orchard-agent-guardian/)
+[![Play the Orchard Agent Guardian concept film (36 seconds)](https://shin4141.github.io/orchard-agent-guardian/orchard-agent-guardian-x-thumbnail.jpg)](https://shin4141.github.io/orchard-agent-guardian/)
 
 Take a closer look inside a ZIP before you trust it.
 
 Orchard provides limited static inspection of suspicious instructions, SHA-256 matching, and manual monitoring of changes to AI instruction files.
 
-*The video includes cinematic visualization, a simulated English-language UI preview, and simulated data. Inspection results are not a safety guarantee.*
+*Concept film: the English-language UI and data are simulated. This is not a recording of Orchard 0.4 r4 in operation. Inspection results are not a safety guarantee.*
 
-[Watch the 36-second preview](https://shin4141.github.io/orchard-agent-guardian/) · [Download MP4](https://github.com/shin4141/orchard-agent-guardian/releases/download/video01-full-v2/orchard-video01-full-v2-en-subs.mp4)
+[Watch the 36-second concept film](https://shin4141.github.io/orchard-agent-guardian/) · [Download MP4](https://github.com/shin4141/orchard-agent-guardian/releases/download/video01-agent-guardian-x-v1/orchard-agent-guardian-x-36s-en-subs.mp4) · [SHA-256](https://github.com/shin4141/orchard-agent-guardian/releases/download/video01-agent-guardian-x-v1/SHA256SUMS.txt)
 
 旧版 [v0.4.0-r2](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r2) は保持しています。
 
