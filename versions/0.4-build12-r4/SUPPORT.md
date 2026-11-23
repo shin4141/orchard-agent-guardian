@@ -1,6 +1,6 @@
 # Support and data requests / 問い合わせ・削除・撤回
 
-General contact: [existing Orchard Issues](https://github.com/shin4141/orchard-zip-inspector/issues).
+General contact: [existing Orchard Issues](https://github.com/shin4141/orchard-agent-guardian/issues).
 Report version/build, OS, result or warning category, and a short reproduction using harmless content.
 For a confidential issue, post only a request for a private contact channel; wait before sharing details.
 There is no newly registered external support service or guaranteed response time.

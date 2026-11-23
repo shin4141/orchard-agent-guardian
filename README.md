@@ -6,19 +6,19 @@
 
 **ライセンス / Licensing:** Orchard独自ソフトウェアはMITライセンス。付属するMalwareBazaar SHA-256データには**無料・非商用OSSのOrchardに限定された別の条件付き許諾**が適用され、MITライセンスの対象ではありません。詳細は [r4ライセンス範囲](versions/0.4-build12-r4/LICENSE_SCOPE.md)、[データ出典・条件](versions/0.4-build12-r4/DATA_SOURCES.md)、[第三者ライセンス](versions/0.4-build12-r4/THIRD_PARTY_NOTICES.md) を参照してください。
 
-**[最新版 Orchard 🍎 0.4 r4 — Apple公証済み](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r4)**（build12、Apple Silicon／macOS 26以降）。
+**[最新版 Orchard 🍎 0.4 r4 — Apple公証済み](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r4)**（build12、Apple Silicon／macOS 26以降）。
 
 ReleaseのAssetsから `Orchard-0.4.0-r4-macos-arm64.zip` と `SHA256SUMS` をダウンロードできます。展開先の `Orchard-0.4-r4` に `Orchard Final Verified.app`、日本語・英語の導入案内とライセンスが入っています。
 
-**[Download Orchard 0.4 r4 for Mac](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r4)**. Expand the release ZIP and open `Orchard Final Verified.app`. The app is signed with Apple Developer ID and notarized by Apple. The ZIP includes English and Japanese guides, MIT and third-party licenses, and data attribution.
+**[Download Orchard 0.4 r4 for Mac](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r4)**. Expand the release ZIP and open `Orchard Final Verified.app`. The app is signed with Apple Developer ID and notarized by Apple. The ZIP includes English and Japanese guides, MIT and third-party licenses, and data attribution.
 
 [r4の対応ソース](versions/0.4-build12-r4/SOURCE_BUILD.md) · [r4 source and build information](versions/0.4-build12-r4/SOURCE_BUILD.md)
 
-[旧r3のRelease](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r3) · [旧r3の導入・更新資料](versions/0.4-build12/README.ja.md)
+[旧r3のRelease](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r3) · [旧r3の導入・更新資料](versions/0.4-build12/README.ja.md)
 
-## Orchard 🍎 — 36-second Cinematic Preview
+## Orchard Agent Guardian 🍎 — 36-second Cinematic Preview
 
-[![Play the Orchard cinematic preview (36 seconds)](https://shin4141.github.io/orchard-zip-inspector/orchard-video01-thumbnail.jpg)](https://shin4141.github.io/orchard-zip-inspector/)
+[![Play the Orchard cinematic preview (36 seconds)](https://shin4141.github.io/orchard-agent-guardian/orchard-video01-thumbnail.jpg)](https://shin4141.github.io/orchard-agent-guardian/)
 
 Take a closer look inside a ZIP before you trust it.
 
@@ -26,9 +26,9 @@ Orchard provides limited static inspection of suspicious instructions, SHA-256 m
 
 *The video includes cinematic visualization, a simulated English-language UI preview, and simulated data. Inspection results are not a safety guarantee.*
 
-[Watch the 36-second preview](https://shin4141.github.io/orchard-zip-inspector/) · [Download MP4](https://github.com/shin4141/orchard-zip-inspector/releases/download/video01-full-v2/orchard-video01-full-v2-en-subs.mp4)
+[Watch the 36-second preview](https://shin4141.github.io/orchard-agent-guardian/) · [Download MP4](https://github.com/shin4141/orchard-agent-guardian/releases/download/video01-full-v2/orchard-video01-full-v2-en-subs.mp4)
 
-旧版 [v0.4.0-r2](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2) は保持しています。
+旧版 [v0.4.0-r2](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r2) は保持しています。
 
 ## 旧r2（build10）の説明 / Previous r2 documentation
 
@@ -40,7 +40,7 @@ Orchard provides limited static inspection of suspicious instructions, SHA-256 m
 
 ### はじめて使う方へ（日本語）
 
-1. [**Orchard 0.4 r2 のダウンロードページ**](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2)の **Assets** から `Orchard-0.4-build10-release-r2.zip` を選びます。GitHubが自動表示する `Source code (zip)` ではありません。
+1. [**Orchard 0.4 r2 のダウンロードページ**](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r2)の **Assets** から `Orchard-0.4-build10-release-r2.zip` を選びます。GitHubが自動表示する `Source code (zip)` ではありません。
 2. ZIPを**1回だけ展開**してできた `Orchard` フォルダを開きます。**Safariが自動で展開した場合は、ダウンロード先にある `Orchard` フォルダを探してください。** 二重に展開する必要はありません。
 3. `Orchard` の中には **`Orchard.app`** と **`はじめに・説明書`** の2つがあります。使うときはアプリを開きます。macOSの警告が出たら[画像付きの初回起動手順](versions/0.4-build10-r2/INSTALL.ja.md)をご覧ください。
 4. `SHA256SUMS` は**ダウンロードしたZIPの同一性を詳しく確かめたい方向け**の別ファイルです。毎日取得するデータではなく、アプリを使い始めるための必須操作でもありません。[照合方法](versions/0.4-build10-r2/VERIFY.md)。
@@ -53,14 +53,14 @@ Orchard provides limited static inspection of suspicious instructions, SHA-256 m
 
 ### Download Orchard 0.4 for Mac
 
-**[Download Orchard 0.4 r2 — Release 1](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r2)**
+**[Download Orchard 0.4 r2 — Release 1](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r2)**
 
 - **Mac:** Apple Silicon and macOS 26 or later; Japanese interface.
 - **Download:** `Orchard-0.4-build10-release-r2.zip`. Expand this ZIP **once** and open `Orchard`: it contains exactly **Orchard.app** and **はじめに・説明書** (guides and notices). Open the app to use it; open the other folder for Japanese/English instructions, images, examples, source and licenses. No separate Python or Homebrew installation.
 - **First launch:** The app is ad-hoc signed, **not Apple-notarized**. macOS may block the first launch; verify the source before following the app-specific steps in [INSTALL.ja.md](versions/0.4-build10-r2/INSTALL.ja.md) or [INSTALL.md](versions/0.4-build10-r2/INSTALL.md) (see [Apple's official instructions](https://support.apple.com/en-us/102445)). Do not disable Gatekeeper globally.
 - **Verification:** `SHA256SUMS` is an optional download-integrity checksum, **not** a virus-definition update. The included 100,000-hash dataset is a fixed subset, not current or complete coverage.
 
-r2 changes only the distribution layout; the app remains Orchard 0.4 build10. The original [v0.4.0 release](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0) remains available. [日本語の同梱説明書](versions/0.4-build10-r2/README.ja.md)（配布キット内で読む前提の案内を含みます）。
+r2 changes only the distribution layout; the app remains Orchard 0.4 build10. The original [v0.4.0 release](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0) remains available. [日本語の同梱説明書](versions/0.4-build10-r2/README.ja.md)（配布キット内で読む前提の案内を含みます）。
 
 Published release assets appear on the Releases page. The software code's MIT license and the bundled MalwareBazaar data's conditional permission are separate.
 
@@ -131,8 +131,8 @@ Python standard library only. This release candidate is validated with synthetic
 Use Python 3.11+ on a POSIX system with `O_NOFOLLOW` and `O_NONBLOCK`. No packages or API keys are needed. Tested in a fresh CPython 3.14 environment on macOS; other Python/OS combinations are not yet verified.
 
 ```sh
-git clone https://github.com/shin4141/orchard-zip-inspector.git
-cd orchard-zip-inspector
+git clone https://github.com/shin4141/orchard-agent-guardian.git
+cd orchard-agent-guardian
 python3 -B test_zip_inspector.py
 python3 -B zip_inspector.py samples/forged_instructions.zip > report.json
 python3 -c 'import json; r=json.load(open("report.json")); print(r["prompt_injection"], len(r["findings"]), len({f["category"] for f in r["findings"]}))'

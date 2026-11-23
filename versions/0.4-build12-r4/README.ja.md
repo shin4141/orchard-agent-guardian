@@ -2,7 +2,7 @@
 
 Apple SiliconとmacOS 26以降に対応しています。Orchard 0.4 build12 r4はApple Developer IDで署名され、Apple公証チケットがアプリに添付されています。
 
-1. [GitHub Release](https://github.com/shin4141/orchard-zip-inspector/releases/tag/v0.4.0-r4)のAssetsから `Orchard-0.4.0-r4-macos-arm64.zip` を取得します。同じ場所の `SHA256SUMS` でZIPのSHA-256を照合できます。
+1. [GitHub Release](https://github.com/shin4141/orchard-agent-guardian/releases/tag/v0.4.0-r4)のAssetsから `Orchard-0.4.0-r4-macos-arm64.zip` を取得します。同じ場所の `SHA256SUMS` でZIPのSHA-256を照合できます。
 2. ZIPを展開し、`Orchard-0.4-r4` フォルダを開きます。アプリと案内、ライセンス、帰属資料は同じフォルダにあります。
 3. フォルダ内の `Orchard Final Verified.app` を開きます。必要なPythonランタイムはアプリに同梱されています。
 

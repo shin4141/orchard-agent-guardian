@@ -11,7 +11,7 @@ Bundle ID、manifest、runtime・worker・DBのSHAと同梱物の検証を維持
 
 ## Report a concern / 問題の連絡
 
-Use the existing [project Issues](https://github.com/shin4141/orchard-zip-inspector/issues) for a **non-sensitive request to contact the maintainer**.
+Use the existing [project Issues](https://github.com/shin4141/orchard-agent-guardian/issues) for a **non-sensitive request to contact the maintainer**.
 State the app version, OS version and warning/result category. Do not post exploit details, credentials, project text, malware samples, real SHA lists or the database.
 For a confidential matter, ask for a private channel first. No dedicated private-report endpoint or response-time guarantee is claimed here.
 Data providers should use the existing written permission correspondence for removal or withdrawal notices.
